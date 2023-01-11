@@ -1,6 +1,5 @@
 // 짝지어 제어하기
 function solution(s) {
-  var answer = -1;
   let arr = [];
   for (let i = 0; i < s.length; i++) {
     arr.push(s[i]);
