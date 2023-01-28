@@ -9,9 +9,6 @@ function solution(citations) {
         if (el < index) { // 논문의 인용 횟수가 논문의 수보다 작으면 직전의 index가 최댓값
             return index - 1; // 직전 index 반환
         }
-        else if (el === index) { // 논문의 인용 횟수와 논문의 수가 같으면 해당 index가 최댓값
-            return index; // 해당 index 반환
-        }
         index++; // 논문의 인용 횟수가 논문의 수보다 크면 논문의 수 증가
     }
 
